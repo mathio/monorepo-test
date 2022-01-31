@@ -1,7 +1,8 @@
 {
   "name": "@mathio28/lib-react",
   "version": "1.0.0",
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
+  "module": "lib/index.js",
   "license": "MIT",
   "private": false,
   "publishConfig": {
