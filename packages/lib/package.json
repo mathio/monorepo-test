@@ -10,6 +10,6 @@
   },
   "type": "module",
   "scripts": {
-    "release": "yarn semantic-release --no-ci"
+    "release-lib": "yarn semantic-release --no-ci"
   }
 }

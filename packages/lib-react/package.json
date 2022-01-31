@@ -16,6 +16,6 @@
     "release": "yarn build && yarn semantic-release --no-ci"
   },
   "dependencies": {
-    "@mathio28/lib": "^1.4.0"
+    "@mathio28/lib": "^1.6.0"
   }
 }
