@@ -1,0 +1,20 @@
+{
+  "name": "@mathio28/lib-react",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "type": "module",
+  "scripts": {
+    "demo": "yarn esbuild ./demo.js --loader:.js=jsx --bundle --outfile=./dist/demo.js",
+    "build": "NODE_ENV=production yarn esbuild ./index.js --loader:.js=jsx --bundle --outfile=./dist/index.js",
+    "release": "yanr build && yarn semantic-release --no-ci"
+  },
+  "dependencies": {
+    "@mathio28/lib": "^1.4.0"
+  }
+}
