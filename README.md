@@ -1,9 +1,9 @@
-# button
+# button monorepo
 
-Will add button to your page.
+## vanilla javascript lib
 
-```
-button(textString, clickHandlerFn, parentElement)  
-```
+in [packages/lib](./packages/lib) released as [@mathio28/lib](https://www.npmjs.com/package/@mathio28/lib)
 
-See [demo](./packages/lib/demo.html).
+## react lib
+
+copming soon to [packages/lib-react](./packages/lib-react) released as [@mathio28/lib-react](https://www.npmjs.com/package/@mathio28/lib-react)

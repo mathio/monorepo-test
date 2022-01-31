@@ -10,10 +10,12 @@
     "packages/*"
   ],
   "scripts": {
-    "release": "yarn lerna run release"
+    "release": "yarn lerna run release",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@semantic-release/npm": "^9.0.0",
+    "husky": "^7.0.4",
     "lerna": "^4.0.0",
     "semantic-release": "^19.0.2",
     "semantic-release-monorepo": "^7.0.5"
