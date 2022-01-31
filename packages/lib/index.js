@@ -1,5 +1,5 @@
 
-// main function
+// main function for button
 const button = (
   text = 'click me',
   onclick = () => {console.log('you clicked the button')},
