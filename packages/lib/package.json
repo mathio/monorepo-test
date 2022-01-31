@@ -1,8 +1,9 @@
 {
   "name": "@mathio28/lib",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "release": "yarn semantic-release --no-ci"
   }
