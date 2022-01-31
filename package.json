@@ -10,7 +10,7 @@
     "packages/*"
   ],
   "scripts": {
-    "release": "yarn lerna run release-lib && yarn bump-version && yarn bump-deps && yarn lerna run release",
+    "release": "yarn lerna run release-lib && yarn bump-version && yarn bump-deps && yarn lerna run release && yarn bump-version",
     "bump-version": "git add . && git commit -m 'chore: bump version' && git push origin",
     "bump-deps": "yarn lerna exec --scope @mathio28/lib-* 'yarn upgrade @mathio28/lib' && git add . && git commit -m 'fix: bump deps' && git push origin",
     "prepare": "husky install"
