@@ -8,6 +8,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "type": "module",
   "scripts": {
     "release": "yarn semantic-release --no-ci"
   }
