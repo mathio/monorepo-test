@@ -12,7 +12,7 @@
   "type": "module",
   "scripts": {
     "demo": "yarn esbuild ./demo.js --loader:.js=jsx --bundle --outfile=./dist/demo.js",
-    "build": "NODE_ENV=production yarn esbuild ./index.js --loader:.js=jsx --bundle --outfile=./dist/index.js",
+    "build": "NODE_ENV=production yarn esbuild ./index.js --loader:.js=jsx --bundle --outfile=./dist/index.js --format=cjs",
     "release": "yarn build && yarn semantic-release --no-ci"
   },
   "dependencies": {
