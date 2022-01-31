@@ -12,7 +12,7 @@
   "scripts": {
     "release": "yarn lerna run release-lib && yarn bump-version && yarn bump-deps && yarn lerna run release",
     "bump-version": "git add . && git commit -m 'chore: bump version' && git push origin",
-    "bump-deps": "yarn lerna add @mathio/lib packages/lib-* && git add . && git commit -m 'fix: bump deps' && git push origin",
+    "bump-deps": "yarn lerna add @mathio28/lib packages/lib-* && git add . && git commit -m 'fix: bump deps' && git push origin",
     "prepare": "husky install"
   },
   "devDependencies": {
