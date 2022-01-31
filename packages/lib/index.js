@@ -1,5 +1,5 @@
 
-export const defaultText = 'here you click will'
+export const defaultText = 'click'
 
 export const defaultOnClick = () => {console.log('you clicked the button')}
 
