@@ -12,7 +12,7 @@
   "scripts": {
     "demo": "yarn esbuild ./demo.js --loader:.js=jsx --bundle --outfile=./dist/demo.js",
     "build": "NODE_ENV=production yarn esbuild ./index.js --loader:.js=jsx --bundle --outfile=./dist/index.js",
-    "release": "yanr build && yarn semantic-release --no-ci"
+    "release": "yarn build && yarn semantic-release --no-ci"
   },
   "dependencies": {
     "@mathio28/lib": "^1.4.0"

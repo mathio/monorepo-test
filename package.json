@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "release": "yarn lerna run release && git checkout **/package.json",
+    "bump-version": "git add . && git commit -m 'chore: bump version' && git push origin",
     "prepare": "husky install"
   },
   "devDependencies": {
